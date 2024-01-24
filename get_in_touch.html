@@ -32,6 +32,7 @@
               "gradient-start": "#FF8938",
               "gradient-end": "#F00",
               "footer-text": "#979AAA",
+              "border-color": "#1111161A",
             },
           },
         },
@@ -46,7 +47,7 @@
   <body class="font-manrope">
     <main class="container mx-auto">
       <!-- Get In Touch Section -->
-      <section class="my-24">
+      <section class="my-24 ">
         <div class="text-center">
             <div class="border-t border-dashed border-gray-300 my-4"></div> 
           <h2 class="text-2xl lg:text-5xl font-extrabold mb-5">Get In Touch</h2>
@@ -58,85 +59,103 @@
           </p>
         </div>
         <div class="border-t border-dashed border-gray-300 my-4 mb-10"></div>
-        <div class="flex flex-col lg:flex-row gap-6">
+        <div class="flex flex-col lg:flex-row gap-6 m-5">
           <div
-            class="flex flex-col gap-6 p-12 border rounded-xl border-l-cyan-950"
+            class="flex flex-col gap-6 p-6 lg:p-12 border rounded-xl border-color"
           >
             <div
-              class="p-12 bg-[#bced6e1a] min-w-96 h-[216px] rounded-xl space-y-5"
+              class="p-6 lg:p-12 bg-[#bced6e1a] lg:min-w-96 lg:h-[216px] rounded-xl space-y-5"
             >
               <img class="" src="./Images/Group 1171275317.png" alt="" />
               <p>Phone Number:</p>
               <h4 class="font-extrabold">(+62) 123-321-543</h4>
             </div>
             <div
-              class="p-12 bg-[#fdd95f1a] min-w-96 h-[216px] rounded-xl space-y-5"
+              class="p-12 bg-[#fdd95f1a] lg:min-w-96 lg:h-[216px] rounded-xl space-y-5"
             >
               <img src="./Images/Group 1171275318.png" alt="" />
               <p>Email:</p>
               <h4 class="font-extrabold">hockeys@support.com</h4>
             </div>
             <div
-              class="p-12 bg-[#629cf31a] min-w-96 h-[216px] rounded-xl space-y-5"
+              class="p-12 bg-[#629cf31a] lg:min-w-96 lg:h-[216px] rounded-xl space-y-5"
             >
               <img src="./Images/Group 1171275321.png" alt="" />
               <p>Location:</p>
               <h4 class="font-extrabold">152/1 Mohakhali Wireless Gate</h4>
             </div>
           </div>
-          <div class="px-12 w-full ">
-            <form class="grid grid-cols-2 gap-16">
-              <div class="form-control">
-                <label for="input1" class="mb-4 text-xl font-bold">Input 1</label>
+          <div class="lg:px-12 w-full ">
+            <form class="grid grid-cols-1 lg:grid-cols-2 lg:gap-6">
+              <div class="form-control w-[335px] lg:w-full ">
+                <label for="input1" class="mb-4 text-xl font-bold"
+                  >Your Name</label
+                >
                 <input
                   type="text"
                   id="input1"
                   name="input1"
-                  class="input bg-slate-200"
-                  placeholder="Enter input 1"
+                  class="input bg-[#12121708]"
+                  placeholder="Enter Your Full Name"
                 />
               </div>
-              <div class="form-control">
-                <label for="input1" class="mb-4 text-xl font-bold">Input 1</label>
+              <br class="block lg:hidden">
+              <div class="form-control w-[335px] lg:w-full">
+                <label for="input2" class="mb-4 text-xl font-bold"
+                  >Your Email</label
+                >
                 <input
                   type="text"
-                  id="input1"
+                  id="input2"
                   name="input1"
-                  class="input bg-slate-200"
-                  placeholder="Enter input 1"
+                  class="input bg-[#12121708]"
+                  placeholder="Enter Your Email"
                 />
               </div>
-              <div class="form-control">
-                <label for="input1" class="mb-4 text-xl font-bold">Input 1</label>
+              <br class="block lg:hidden">
+              <div class="form-control w-[335px] lg:w-full">
+                <label for="input3" class="mb-4 text-xl font-bold"
+                  >Subject</label
+                >
                 <input
                   type="text"
-                  id="input1"
+                  id="input3"
                   name="input1"
-                  class="input bg-slate-200"
-                  placeholder="Enter input 1"
+                  class="input bg-[#12121708]"
+                  placeholder="Enter Your Subject"
                 />
               </div>
-              <div class="form-control">
-                <label for="input1" class="mb-4 text-xl font-bold">Input 1</label>
+              <br class="block lg:hidden">
+              <div class="form-control w-[335px] lg:w-full">
+                <label for="input4" class="mb-4 text-xl font-bold"
+                  >Phone Number</label
+                >
                 <input
                   type="text"
-                  id="input1"
+                  id="input4"
                   name="input1"
-                  class="input bg-slate-200"
-                  placeholder="Enter input 1"
+                  class="input bg-[#12121708]"
+                  placeholder="Enter Your Phone Number"
                 />
               </div>
-              <div class="form-control col-span-2">
-                <label for="textarea" class="mb-4 text-xl font-bold">Textarea</label>
+              <br class="block lg:hidden">
+              <div class="form-control col-span-2 w-[335px] lg:w-full">
+                <label for="textarea" class="mb-4 text-xl font-bold"
+                  >Message</label
+                >
                 <textarea
                   id="textarea"
                   name="textarea"
-                  class="textarea  h-[370px] bg-slate-200"
+                  class="textarea h-[370px] bg-[#12121708]"
                   rows="6"
-                  placeholder="Enter text"
+                  placeholder="Write Your text"
                 ></textarea>
               </div>
-              <button class="text-xl font-bold bg-red-500 rounded-xl text-white w-[920px] p-1">Send Message</button>
+              <button
+                class="col-span-2 text-xl font-bold bg-red-500 rounded-xl text-white w-[335px] lg:w-full p-1"
+              >
+                Send Message
+              </button>
             </form>
           </div>
         </div>
