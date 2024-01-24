@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>hockey's</title>
+    <!-- tailwind and daisy UI -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@3.3.1/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- manrope google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font awesome -->
+    <script
+      src="https://kit.fontawesome.com/d7b7563d24.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- tailwind custom color -->
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              "gradient-start": "#FF8938",
+              "gradient-end": "#F00",
+              "footer-text": "#979AAA",
+            },
+          },
+        },
+      };
+    </script>
+    <style>
+      .font-manrope {
+        font-family: "Manrope", sans-serif;
+      }
+    </style>
+  </head>
+  <body class="font-manrope">
+    <main class="container mx-auto">
+      <!-- Clients Question Section -->
+      <section class="my-24">
+        <div class="text-center">
+          <div class="border-t border-dashed border-gray-300 my-4"></div>
+          <h2 class="text-2xl lg:text-5xl font-extrabold mb-5">Clients Question</h2>
+          <p class="lg:max-w-3xl mb-10 mx-auto">
+            Dit amet consectetur. Condimentum dignissim adipiscing aliquam
+            turpis placerat dolor. Purus urna in sit nullam proin.
+          </p>
+        </div>
+        <div class="border-t border-dashed border-gray-300 my-4 mb-10"></div>
+        <div class="p-8 border rounded-r-lg border-gray-300 flex flex-col lg:flex-row gap-6">
+          <img class="w-5/12" src="./Images/11.png" alt="" />
+          <div class="w-7/12">
+            <div class="collapse collapse-plus bg-base-200">
+              <input type="radio" name="my-accordion-3" checked="checked" />
+              <div class="collapse-title text-xl font-medium">
+                Click to open this one and close others
+              </div>
+              <div class="collapse-content">
+                <p>hello</p>
+              </div>
+            </div>
+            <div class="border-t border-solid border-gray-300 my-6"></div>
+            <div class="collapse collapse-plus bg-base-200">
+              <input type="radio" name="my-accordion-3" />
+              <div class="collapse-title text-xl font-medium">
+                Click to open this one and close others
+              </div>
+              <div class="collapse-content">
+                <p>hello</p>
+              </div>
+            </div>
+            <div class="border-t border-solid border-gray-300 my-6"></div>
+            <div class="collapse collapse-plus bg-base-200">
+              <input type="radio" name="my-accordion-3" />
+              <div class="collapse-title text-xl font-medium">
+                Click to open this one and close others
+              </div>
+              <div class="collapse-content">
+                <p>hello</p>
+              </div>
+            </div>
+            <div class="border-t border-solid border-gray-300 my-6"></div>
+            <div class="collapse collapse-plus bg-base-200">
+                <input type="radio" name="my-accordion-3" />
+                <div class="collapse-title text-xl font-medium">
+                  Click to open this one and close others
+                </div>
+                <div class="collapse-content">
+                  <p>hello</p>
+                </div>
+              </div>
+              <div class="border-t border-solid border-gray-300 my-6"></div>
+            <div class="collapse collapse-plus bg-base-200">
+                <input type="radio" name="my-accordion-3" />
+                <div class="collapse-title text-xl font-medium">
+                  Click to open this one and close others
+                </div>
+                <div class="collapse-content">
+                  <p>hello</p>
+                </div>
+              </div>
+              <div class="border-t border-solid border-gray-300 my-6"></div>
+              <div class="collapse collapse-plus bg-base-200">
+                <input type="radio" name="my-accordion-3" />
+                <div class="collapse-title text-xl font-medium">
+                  Click to open this one and close others
+                </div>
+                <div class="collapse-content">
+                  <p>hello</p>
+                </div>
+              </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

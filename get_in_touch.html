@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>hockey's</title>
+    <!-- tailwind and daisy UI -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@3.3.1/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- manrope google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font awesome -->
+    <script
+      src="https://kit.fontawesome.com/d7b7563d24.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- tailwind custom color -->
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              "gradient-start": "#FF8938",
+              "gradient-end": "#F00",
+              "footer-text": "#979AAA",
+            },
+          },
+        },
+      };
+    </script>
+    <style>
+      .font-manrope {
+        font-family: "Manrope", sans-serif;
+      }
+    </style>
+  </head>
+  <body class="font-manrope">
+    <main class="container mx-auto">
+      <!-- Get In Touch Section -->
+      <section class="my-24">
+        <div class="text-center">
+            <div class="border-t border-dashed border-gray-300 my-4"></div> 
+          <h2 class="text-2xl lg:text-5xl font-extrabold mb-5">Get In Touch</h2>
+          <p class="lg:max-w-3xl mb-10 mx-auto">
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alteration in some form, by injected
+            humour, or randomised words which don't look even slightly
+            believable.
+          </p>
+        </div>
+        <div class="border-t border-dashed border-gray-300 my-4 mb-10"></div>
+        <div class="flex flex-col lg:flex-row gap-6">
+          <div
+            class="flex flex-col gap-6 p-12 border rounded-xl border-l-cyan-950"
+          >
+            <div
+              class="p-12 bg-[#bced6e1a] min-w-96 h-[216px] rounded-xl space-y-5"
+            >
+              <img class="" src="./Images/Group 1171275317.png" alt="" />
+              <p>Phone Number:</p>
+              <h4 class="font-extrabold">(+62) 123-321-543</h4>
+            </div>
+            <div
+              class="p-12 bg-[#fdd95f1a] min-w-96 h-[216px] rounded-xl space-y-5"
+            >
+              <img src="./Images/Group 1171275318.png" alt="" />
+              <p>Email:</p>
+              <h4 class="font-extrabold">hockeys@support.com</h4>
+            </div>
+            <div
+              class="p-12 bg-[#629cf31a] min-w-96 h-[216px] rounded-xl space-y-5"
+            >
+              <img src="./Images/Group 1171275321.png" alt="" />
+              <p>Location:</p>
+              <h4 class="font-extrabold">152/1 Mohakhali Wireless Gate</h4>
+            </div>
+          </div>
+          <div class="px-12 w-full ">
+            <form class="grid grid-cols-2 gap-16">
+              <div class="form-control">
+                <label for="input1" class="mb-4 text-xl font-bold">Input 1</label>
+                <input
+                  type="text"
+                  id="input1"
+                  name="input1"
+                  class="input bg-slate-200"
+                  placeholder="Enter input 1"
+                />
+              </div>
+              <div class="form-control">
+                <label for="input1" class="mb-4 text-xl font-bold">Input 1</label>
+                <input
+                  type="text"
+                  id="input1"
+                  name="input1"
+                  class="input bg-slate-200"
+                  placeholder="Enter input 1"
+                />
+              </div>
+              <div class="form-control">
+                <label for="input1" class="mb-4 text-xl font-bold">Input 1</label>
+                <input
+                  type="text"
+                  id="input1"
+                  name="input1"
+                  class="input bg-slate-200"
+                  placeholder="Enter input 1"
+                />
+              </div>
+              <div class="form-control">
+                <label for="input1" class="mb-4 text-xl font-bold">Input 1</label>
+                <input
+                  type="text"
+                  id="input1"
+                  name="input1"
+                  class="input bg-slate-200"
+                  placeholder="Enter input 1"
+                />
+              </div>
+              <div class="form-control col-span-2">
+                <label for="textarea" class="mb-4 text-xl font-bold">Textarea</label>
+                <textarea
+                  id="textarea"
+                  name="textarea"
+                  class="textarea  h-[370px] bg-slate-200"
+                  rows="6"
+                  placeholder="Enter text"
+                ></textarea>
+              </div>
+              <button class="text-xl font-bold bg-red-500 rounded-xl text-white w-[920px] p-1">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
